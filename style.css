@@ -1,6 +1,6 @@
 /* Common styles for the entire page */
 body {
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   margin: 0;
   padding: 0;
   background-color: #DCCBE6;
@@ -20,12 +20,12 @@ h1 {
   margin: 0;
   font-size: 2em;
   color: black;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
 }
 
 h2 {
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -131,7 +131,7 @@ form {
 
 label {
   font-size: 1.2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   color: black;
   font-weight: bold;
 }
@@ -149,7 +149,7 @@ label {
 .forgot-password {
   text-align: center;
   font-size: 0.9em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -206,7 +206,7 @@ a {
   background: transparent;
   color: #566dd6;
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -218,7 +218,7 @@ a {
   border-radius: 0.5em;
   cursor: pointer;
   font-size: 1.2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
   margin: 0 0.5em;
 }
@@ -248,7 +248,7 @@ button {
   border-radius: 0.5em;
   cursor: pointer;
   font-size: 1.2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
   position: relative;
 }
@@ -295,7 +295,7 @@ button:hover {
   border-radius: 0.5em;
   cursor: pointer;
   font-size: 1.2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -329,7 +329,7 @@ button:hover {
   background: transparent;
   color: #566dd6;
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -345,7 +345,7 @@ button:hover {
 
 .group-details h2 {
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -393,7 +393,7 @@ button:hover {
   background: transparent;
   color: #566dd6;
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -408,7 +408,7 @@ button:hover {
 
 .event-details h2 {
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -428,7 +428,7 @@ button:hover {
   background: transparent;
   color: #566dd6;
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -443,7 +443,7 @@ button:hover {
 
 .event-details-description h2 {
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }
 
@@ -480,6 +480,6 @@ button:hover {
   background: transparent;
   color: #566dd6;
   font-size: 2em;
-  font-family: 'Comic Sans MS', cursive;
+  font-family: 'Comic Sans MS', Comic Sans MS;
   font-weight: bold;
 }

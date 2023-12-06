@@ -1,0 +1,485 @@
+/* Common styles for the entire page */
+body {
+  font-family: 'Comic Sans MS', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #DCCBE6;
+  font-weight: bold;
+}
+
+/* Styles for the common top banner */
+.top-banner {
+  background-color: #aef3ed;
+  padding: 1em;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+  color: black;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+/* Styles for the hamburger icon */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+/* Styles for the dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styles for the home icon */
+.home-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: transparent;
+  overflow: hidden;
+}
+
+.home-icon::before {
+  content: '🏠';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: black;
+  filter: brightness(0);
+}
+
+/* Styles for the main content container */
+.container {
+  max-width: 40em;
+  margin: 2em auto;
+  background-color: #DCCBE6;
+  border: 20px solid #DCCBE6;
+  border-radius: 1em;
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+/* Styles specific to content boxes and forms */
+.content-box {
+  text-align: center;
+  border: 20px solid #566dd6;
+  padding: 1em;
+  background-color: #a6b7e2;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Styles for form elements */
+.form-group {
+  margin: 0.5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+label {
+  font-size: 1.2em;
+  font-family: 'Comic Sans MS', cursive;
+  color: black;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5em 1em;
+  border: 1px solid #DCCBE6;
+  border-radius: 0.5em;
+  height: 2em;
+  box-sizing: border-box;
+}
+
+/* Styles for the forgot password and links */
+.forgot-password {
+  text-align: center;
+  font-size: 0.9em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+
+.forgot-password-link {
+  color: blue;
+}
+
+/* Page-specific styles for "groups.html" */
+#beginMatchingButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#calendar a {
+  color: #566dd6;
+}
+
+.group-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.group-item {
+  background-color: #a6b7e2;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0.5em 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.group-heading {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.group-heading h2 {
+  background: transparent;
+  color: #566dd6;
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+.select-button {
+  padding: 0.2em 1em;
+  background-color: #a6b7e2;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+  margin: 0 0.5em;
+}
+
+.select-button:hover {
+  background-color: #566dd6;
+}
+
+/* Customize links, buttons, etc. for the specific page */
+.page-specific-link {
+  color: red;
+}
+
+/* Styles for buttons and button containers */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+button {
+  padding: 0.2em 0.5em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+  position: relative;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Page-specific styles for calendarView.html */
+.selectedYear {
+  background-color: #566dd6;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 18fr;
+}
+
+.inner-divider {
+  background-color: #a6b7e2;
+  border-radius: 1em;
+  text-align: center;
+  padding: 10px;
+}
+
+.selectedDetails {
+  background-color: #566dd6;
+  padding: 20px;
+}
+
+/* Styles for header and header buttons */
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #566dd6;
+  color: white;
+  padding: 10px;
+}
+
+.header-button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+.header-button:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles specific to the "members.html" page */
+.member-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.member-item {
+  background-color: #a6b7e2;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0.5em 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.member-heading {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.member-heading h2 {
+  background: transparent;
+  color: #566dd6;
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+/* Additional styles specific to the "groupDetails.html" page */
+.group-details {
+  text-align: center;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: #a6b7e2;
+  font-weight: bold;
+}
+
+.group-details h2 {
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+.group-members {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.group-member {
+  background-color: #a6b7e2;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Additional styles specific to the "events.html" page */
+.event-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.event-item {
+  background-color: #a6b7e2;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0.5em 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.event-heading {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.event-heading h2 {
+  background: transparent;
+  color: #566dd6;
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+.event-details {
+  text-align: center;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: #a6b7e2;
+  font-weight: bold;
+}
+
+.event-details h2 {
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+/* Additional styles specific to the "eventDetails.html" page */
+.event-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-details-header {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.event-details-header h2 {
+  background: transparent;
+  color: #566dd6;
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+.event-details-description {
+  text-align: center;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  background-color: #a6b7e2;
+  font-weight: bold;
+}
+
+.event-details-description h2 {
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}
+
+/* Additional styles specific to the "eventForm.html" page */
+.form-container {
+  max-width: 30em;
+  margin: 2em auto;
+  background-color: #a6b7e2;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Additional styles specific to the "profile.html" page */
+.profile-container {
+  max-width: 30em;
+  margin: 2em auto;
+  background-color: #a6b7e2;
+  border: 20px solid #566dd6;
+  border-radius: 1em;
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.profile-details {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.profile-details h2 {
+  background: transparent;
+  color: #566dd6;
+  font-size: 2em;
+  font-family: 'Comic Sans MS', cursive;
+  font-weight: bold;
+}

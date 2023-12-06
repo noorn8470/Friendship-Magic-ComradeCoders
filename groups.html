@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Groups</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div class="top-banner">
+    <div class="menu-icon" onclick="toggleDropdown()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <!-- Dropdown menu content -->
+    <div class="dropdown-content" id="dropdownMenu">
+      <a href="index.html">Sign-Out</a>
+      <!-- Add more links as needed -->
+    </div>
+    <!--Home Button-->
+    <a href="groups.html" class="home-icon">🏠</a>
+
+
+
+    <h1>Friendship is Magic!</h1>
+  </div>
+
+  <!-- Main content container -->
+  <div class="container">
+    <div class="content">
+      <!-- Section for managing friend groups -->
+      <div class="group-heading">
+        <!-- Display the heading for friend groups -->
+        <div class="group-select">
+          <h1>Friend Groups</h1>
+        </div>
+        <!-- List of existing friend groups -->
+        <ul class="group-list">
+          <li class="group-item">College Buddies</li>
+          <li class="group-item">Highschool Pals</li>
+        </ul>
+        <!-- Button to add a new friend group -->
+        <button class="group-button" id="addNewGroup">+ Add a New Group</button>
+        <!-- Input field for new group name, initially hidden -->
+        <div class="new-group-input" style="display: none;">
+          <input type="text" id="newGroupName" placeholder="Enter Group Name">
+          <!-- Button to submit the new group -->
+          <button id="submitNewGroup">Submit</button>
+        </div>
+      </div>
+
+      <!-- Section for additional calendar options -->
+      <div class="calendar-options">
+        <h2>View Your Calendar</h2>
+        <div class="calendar-buttons">
+          <button id="selectMonthButton">Select Month</button>
+          <button id="selectYearButton">Select Year</button>
+          <!-- Add the "Go!" button here -->
+          <button id="goButton" class="select-button">Go!</button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Include external JavaScript file for dynamic behavior -->
+  <script src="script.js"></script>
+
+  <script scr="cookiestest.js"></script>
+
+
+</body>
+
+</html>
